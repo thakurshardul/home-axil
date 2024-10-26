@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import { titleVariants} from "../../utils/animation"
 const Gallery = () => {
+  
   return (
     <motion.div 
     initial="offscreen"

@@ -50,9 +50,9 @@ const Projects = () => {
               <div>
                 <img src={project.image} alt="project-image" width={480} height={380} className="w-full"/>
               </div>
-              <div className="absolute bottom-0 right-0 bg-white/90 dark:bg-black/40 flex-col items-center justify-end w-96 gap-32 p-12 text-xl transition duration-300 ease-in-out translate-y-full from-transparent to-black group-hover:translate-y-0">
-                <h1 className="text-2xl font-semibold ">{project.name}</h1>
-                <p className="py-4">{project.description}</p>
+              <div className="absolute right-0 bottom-0 text-center bg-white/90 dark:bg-black/40 flex-col items-center justify-start sm:justify-end h-full  w-full sm:w-96 sm:h-auto gap-32 pt-8 sm:pt-12 sm:p-12 text-xl transition duration-300 ease-in-out translate-y-full from-transparent to-black group-hover:translate-y-0">
+                <h1 className="text-base sm:text-2xl font-semibold">{project.name}</h1>
+                <p className="py-1 sm:py-4 text-sm sm:text-xl ">{project.description}</p>
               </div>
             </div >
           ))
