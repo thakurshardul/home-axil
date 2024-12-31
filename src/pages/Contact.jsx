@@ -75,7 +75,7 @@ const Contact = () => {
           </Switch.Group>
           
           <div className="mt-10">
-            <Button type="submit" className="flex w-full items-center px-8 py-3 text-white rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">Let's Talk <TbArrowUpRight className="w-5 h-5 ml-2"/></Button>
+            <Button type="submit" className="flex items-center px-8 py-3 text-white rounded-full shadow-lg hover:bg-gray-800 hover:ring-2 hover:ring-gray-950 ring-offset-2">Let's Talk <TbArrowUpRight className="w-5 h-5 ml-2"/></Button>
           </div>
         </div>
 
