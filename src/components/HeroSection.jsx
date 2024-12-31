@@ -5,7 +5,7 @@ import { descVariants, titleVariants ,tagVariants} from "../../utils/animation.j
 import {motion} from "framer-motion"
 const HeroSection = () => {
   return (
-    <div className="container py-12 xl:py-24 h-[auto] test-center lg:py-0 lg:text-left lg:flex  lg:justify-between">
+    <div className="container py-12 xl:py-24 h-[auto] text-center lg:py-0 lg:text-left lg:flex  lg:justify-between">
         {/* left section */}
         <div className="lg:w-1/2 xl:py-14 lg:py-8"> 
             <motion.p 
@@ -38,11 +38,11 @@ const HeroSection = () => {
             </motion.div> 
         </div>
         {/* right image section */}
-        <div className="w-1/2"> 
+        <div className="w-1/2 flex justify-center items-center ml-4"> 
             <img src={hallImage}
             width={800}
             height={500}
-            className="absolute right-20 xl:h-[448px] xl:w-[700px] lg:h-[344px] lg:w-[500px] hidden lg:block"/>
+            className="absolute xl:right-20 2xl:h-[448px] 2xl:w-[700px] lg:h-[344px] lg:w-[500px] hidden lg:block"/>
         </div>
     </div>
   )

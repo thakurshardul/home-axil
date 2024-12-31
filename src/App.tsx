@@ -5,25 +5,16 @@ import Footer from "../src/components/Footer.jsx";
 import Template from "./Template.jsx"
 
 function App() {
-  
 
   return (
     <>
-    
       <ThemeProvider defaultTheme='light' storageKey='vite-ui-theme'>
-             <Header/>
-             <Template>
+        <Header/>
+          <Template>
             <Outlet/>
-            </Template>
-          <Footer/>
-           
-          
-          
+          </Template>
+        <Footer/>
       </ThemeProvider>
-      
-      
-    
-    
     </>
   )
 }
